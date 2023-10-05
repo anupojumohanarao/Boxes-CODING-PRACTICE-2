@@ -1,0 +1,92 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-heading {
+  color: #0f172a;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 786px) {
+  .main-heading {
+    margin-bottom: -150px;
+    font-size: 45px;
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+
+.container-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 786px) {
+  .container-boxes {
+    flex-direction: column;
+  }
+}
+
+.heading-title {
+  color: #ffffff;
+  font-family: "Bree Serif";
+  font-size: 15px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.small-card {
+  background-color: #fbbf24;
+  height: 85px;
+  width: 85px;
+  border-radius: 3px;
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .small-card {
+    margin-bottom: -70px;
+  }
+}
+
+.medium-card {
+  background-color: #38bdf8;
+  height: 150px;
+  width: 150px;
+  border-radius: 3px;
+  margin-top: 135px;
+}
+
+@media screen and (max-width: 786px) {
+  .medium-card {
+    margin-bottom: 50px;
+  }
+}
+
+.large-card {
+  background-color: #ec4899;
+  height: 270px;
+  width: 270px;
+  border-radius: 3px;
+}
